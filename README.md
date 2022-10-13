@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(0, 163, 22, 0.5); 
+    background-color: rgba(80, 248, 103, 0.5); 
 } 
 
 img {
@@ -11,6 +11,7 @@ img {
     align-items: center;
 }
 button{
-    border-radius: 20px;
-    box-shadow: 5px 5px 5px #eee;
+    border-radius: 410px;
+    width:200px;
+    height:100px;
 }
