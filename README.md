@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(80, 248, 103, 0.5);  
+    background-image: url(1.jpg);
 } 
 
 img {
