@@ -1,7 +1,20 @@
-body {
-    background-image: url(1.jpg);
-} 
+.container {
+    display: flex;
+    align-items: center;
+    background-color: #008000;
+    height: 200px;
+    width: 100%;
+    
+}
+button{
+    border-radius: 200px;
+    width:100px;
+    height:50px;
+}
 
-img {
-    height: 100px;
+
+.BRANCO {
+    background-color: #FFFFFF;
+    height: 100%;
+    width: 100%;
 }
