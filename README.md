@@ -1,20 +1,21 @@
-.container {
-    display: flex;
-    align-items: center;
-    background-color: #008000;
-    height: 200px;
-    width: 100%;
+<?php 
+require_once 'conexao.php'; 
+/*$id = $_POST['questao'];
+$query = "SELECT * FROM questao WHERE idQuestao = $id";
+$stmt = $conn->prepare($query);
+$stmt->execute();
+if ($stmt->rowCount()>0){
+    echo "consulta realizada";
+}
+for($i=0; $i<count($id); $i++) {
     
-}
-button{
-    border-radius: 200px;
-    width:100px;
-    height:50px;
-}
+    $query = "SELECT * FROM questao WHERE idQuestao = $id[$i]";
+    $stmt = $conn->prepare($query);
+    $stmt->execute();
+    if ($stmt->rowCount()>0){
+        echo "consulta realizada";
+    }
+}*/
+    echo"$id[0]";
 
-
-.BRANCO {
-    background-color: #FFFFFF;
-    height: 100%;
-    width: 100%;
-}
+?>
